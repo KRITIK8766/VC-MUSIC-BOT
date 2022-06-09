@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ Lovely 🚬 ❱...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠  Lovely**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -171,24 +171,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text="❰𝙊𝙬𝙣𝙚𝙧❱",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+               
             ]
         )
 
@@ -224,24 +219,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text=" ❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+             
             ]
         )
 
@@ -254,30 +244,25 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+               
             ]
         )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠  ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ **"
             )
             return
         requested_by = message.from_user.first_name
@@ -286,9 +271,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
+                " 𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠  𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ️**"
             )
-        await lel.edit("🔎")
+        await lel.edit(" 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁..... ")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -322,24 +307,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+              
             ]
         )
 
@@ -359,7 +339,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘  ❱ 𝐒𝐨𝐧𝐠  𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 ** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -376,7 +356,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**▶️ Legendary Music Bot Is Playin Now In** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="** Legendary Music Bot Is Playin Now In** `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
