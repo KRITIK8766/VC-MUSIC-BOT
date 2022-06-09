@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ Lovely 🚬 ❱...**")
+    lel = await message.reply("****")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -171,24 +171,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text="❰𝙊𝙬𝙣𝙚𝙧❱",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+               
             ]
         )
 
@@ -224,24 +219,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text=" ❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+             
             ]
         )
 
@@ -254,24 +244,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI)
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+               
             ]
         )
 
@@ -288,7 +273,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
-        await lel.edit("🔎")
+        await lel.edit("𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁..... ")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -322,24 +307,19 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💝 Owner 💝",
+                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="👨‍💻 Assistant",
-                            url=f"https://t.me/{bot_username}")
+                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
                             text="Support",
                             url=f"https://t.me/Official_K_LegendBot")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
-                   
-                ]
+               ]
+              
             ]
         )
 
