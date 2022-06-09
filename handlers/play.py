@@ -249,7 +249,7 @@ async def play(_, message: Message):
                             
                     InlineKeyboardButton(
                             text="❰𝗚𝗥𝗢𝗨𝗣❱",
-                            url=f"https://t.me/HEPPYLIFI)
+                            url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
