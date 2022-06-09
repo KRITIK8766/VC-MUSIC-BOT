@@ -20,20 +20,17 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " Owner ", url=f"https://t.me/{master_user}")
+                        " ❰𝙊𝙬𝙣𝙚𝙧❱ ", url=f"https://t.me/{master_user}")
                ],
                 [
                     InlineKeyboardButton(
-                        " ✚ Add me to your Group ✚", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        " ✚ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ✚ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ], 
                 [
                     InlineKeyboardButton(
-                        " ", url=f"https://t.me/LegendBot_AI")
-               ],
-                [
-                    InlineKeyboardButton(
-                        " ", url=f"https://t.me/LegendBot_OP")
-                ]
+                        " are le le repo ", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
+               ]
+               
                 
            ]
        ),
