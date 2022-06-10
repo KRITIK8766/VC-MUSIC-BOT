@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠  Lovely**")
+    lel = await message.reply("🔎 **find song**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -215,11 +215,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
+                            text=" 𝙊𝙒𝙉𝙀𝙍",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text=" ❰𝗚𝗥𝗢𝗨𝗣❱",
+                            text=" 𝙂𝙍𝙊𝙐𝙋",
                             url=f"https://t.me/HEPPYLIFI")
                ]
               
@@ -236,11 +236,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
+                            text=" 𝙊𝙒𝙉𝙀𝙍 ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            text="𝙂𝙍𝙊𝙐𝙋",
                             url=f"https://t.me/HEPPYLIFI")
                ]
              
@@ -295,11 +295,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" ❰𝙊𝙬𝙣𝙚𝙧❱ ",
+                            text=" ❰𝙊𝙬𝙊𝙒𝙉𝙀𝙍",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            text="𝙂𝙍𝙊𝙐𝙋",
                             url=f"https://t.me/HEPPYLIFI")
                ]
               
@@ -340,7 +340,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="** Legendary Music Bot Is Playin Now In**  `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**  ØFFɪㄈɪΛŁ нΛㄈҚƐ尺 **  `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
