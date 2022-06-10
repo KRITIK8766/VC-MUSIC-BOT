@@ -22,16 +22,13 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         " 𝗢𝘄𝗻𝗲𝗿 ", url=f"https://t.me/{master_user}")
-                    InlineKeyboardButton(
-                        " 𝗚𝗿𝗼𝘂𝗽 ", url=f"https://t.me/HEPPYLIFI")
+                    
                ],
                 [
                     InlineKeyboardButton(
                         " ✚ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ✚ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ]
-             
-               
-                
+                            
            ]
        ),
     )
