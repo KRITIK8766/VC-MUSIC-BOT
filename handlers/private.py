@@ -14,8 +14,10 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b829ac9baea46fed52157.jpg",
-        caption=f""" """,
+        photo=f"https://telegra.ph/file/3bbbd1b63621c01731ed3.jpg",
+        caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ 
+        
+    ØFFɪㄈɪΛŁ нΛㄈҚƐ尺 (https://t.me/OFFICIALHACKERERA) **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
