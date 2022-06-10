@@ -14,15 +14,13 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3bbbd1b63621c01731ed3.jpg",
-        caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ 
-        
-    ØFFɪㄈɪΛŁ нΛㄈҚƐ尺 (https://t.me/OFFICIALHACKERERA) **""",
+        photo=f"https://telegra.ph/file/0571e6765c39f396b7376.jpg",
+        caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " 𝙊𝙒𝙉𝙀𝙍 ", url=f"https://t.me/{master_user}")
+                        " ᴏᴡɴᴇʀ ", url=f"https://t.me/{master_user}")
                     
                ],
                 [
@@ -37,13 +35,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3bbbd1b63621c01731ed3.jpg",
+        photo=f"https://telegra.ph/file/0571e6765c39f396b7376.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " 𝗢𝘄𝗻𝗲𝗿 ", url=f"https://t.me/OFFICIALHACKERERA")
+                        " ᴏᴡɴᴇʀ ", url=f"https://t.me/OFFICIALHACKERERA")
                 ]
             ]
         ),
