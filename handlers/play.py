@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **find song**")
+    lel = await message.reply("🔎**  𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗧𝗵𝗲  𝗦𝗼𝗻𝗴**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -171,11 +171,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                            text="𝙊𝙒𝙉𝙀𝙍",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="❰𝗚𝗥𝗢𝗨𝗣❱",
+                            text="𝙂𝙍𝙊𝙐𝙋",
                             url=f"https://t.me/HEPPYLIFI")
                ]
                
@@ -295,7 +295,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" ❰𝙊𝙬𝙊𝙒𝙉𝙀𝙍",
+                            text=" 𝙊𝙒𝙉𝙀𝙍",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
