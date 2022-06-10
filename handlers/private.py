@@ -14,13 +14,16 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3e73f23cc1c1b40cbba82.jpg",
-        caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞  𝐕𝐩𝐬  𝐒𝐞𝐫𝐯𝐞𝐫  𝐅𝐞𝐞𝐥 ️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜  𝐈𝐧 𝐕𝐜**""",
+        photo=f"https://telegra.ph/file/b829ac9baea46fed52157.jpg",
+        caption=f"""**𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗥𝘂𝗻 𝗢𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗩𝗽𝘀 𝗦𝗲𝗿𝘃𝗲𝗿 
+        𝗙𝗲𝗲𝗹 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗩𝗰**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝙊𝙬𝙣𝙚𝙧❱ ", url=f"https://t.me/{master_user}")
+                        " 𝗢𝘄𝗻𝗲𝗿 ", url=f"https://t.me/{master_user}")
+                    InlineKeyboardButton(
+                        " 𝗚𝗿𝗼𝘂𝗽 ", url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
@@ -36,14 +39,17 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3e73f23cc1c1b40cbba82.jpg",
+        photo=f"https://telegra.ph/file/b829ac9baea46fed52157.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " Repo ", url=f"https://github.com/LEGENDARY-OS/MUSIC-BOT")
+                        " 𝗢𝘄𝗻𝗲𝗿 ", url=f"https://t.me/OFFICIALHACKERERA")
                 ]
             ]
         ),
     )
+
+
+
