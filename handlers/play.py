@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎**  𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗧𝗵𝗲  𝗦𝗼𝗻𝗴**")
+    lel = await message.reply(" 💞 ** ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -127,13 +127,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝐀𝐝 𝐌𝐞 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 </b>")
+                        "<b>  ᴀᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ </b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝐌𝐮𝐬𝐢𝐜 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐉𝐨𝐢𝐧𝐞𝐝  𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩  𝐅𝐨𝐫 𝐏𝐥𝐚𝐲  𝐌𝐮𝐬𝐢𝐜 **")
+                        message.chat.id, "**  ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ **")
 
                 except UserAlreadyParticipant:
                     pass
@@ -171,11 +171,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝙊𝙒𝙉𝙀𝙍",
+                            text="ᴏᴡɴᴇʀ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="𝙂𝙍𝙊𝙐𝙋",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ]
                
@@ -215,11 +215,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" 𝙊𝙒𝙉𝙀𝙍",
+                            text=" ᴏᴡɴᴇʀ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text=" 𝙂𝙍𝙊𝙐𝙋",
+                            text=" ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ]
               
@@ -236,11 +236,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" 𝙊𝙒𝙉𝙀𝙍 ",
+                            text=" ᴏᴡɴᴇʀ ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="𝙂𝙍𝙊𝙐𝙋",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ]
              
@@ -259,9 +259,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                " 𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠  𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ️**"
+                "  ᴡʜᴀᴛs ᴛʜᴇ sᴏɴɢ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ**"
             )
-        await lel.edit(" 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁..... ")
+        await lel.edit("  ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ....  ")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -286,7 +286,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**  𝐒𝐨𝐧𝐠 𝐍𝐨𝐭  𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 °**"
+                "** sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ sᴘᴇʟʟɪɴɢ ᴘʀᴏʙʟᴇᴍ °**"
             )
             print(str(e))
             return
@@ -295,11 +295,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text=" 𝙊𝙒𝙉𝙀𝙍",
+                            text=" ᴏᴡɴᴇʀ",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="𝙂𝙍𝙊𝙐𝙋",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ]
               
@@ -323,7 +323,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗  ❱ 𝐒𝐨𝐧𝐠 ️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 ** {}**".format(position),
+            caption="**** sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ ** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
