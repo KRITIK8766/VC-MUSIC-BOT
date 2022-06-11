@@ -14,8 +14,12 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0571e6765c39f396b7376.jpg",
-        caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ**""",
+        photo=f"https://telegra.ph/file/41daa06a220f61571580e.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+ ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
+ ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ
+ ØFFɪㄈɪΛŁ нΛㄈҚƐ尺 (https://t.me/OFFICIALHACKERERA)
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -25,7 +29,7 @@ async def start_(client: Client, message: Message):
                ],
                 [
                     InlineKeyboardButton(
-                        " ✚ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ✚ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ]
                             
            ]
@@ -35,7 +39,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0571e6765c39f396b7376.jpg",
+        photo=f"https://telegra.ph/file/41daa06a220f61571580e.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
