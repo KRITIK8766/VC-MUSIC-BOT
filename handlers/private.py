@@ -15,11 +15,7 @@ if "@" in master_user:
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/41daa06a220f61571580e.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
- ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
- ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ
- ØFFɪㄈɪΛŁ нΛㄈҚƐ尺 (https://t.me/OFFICIALHACKERERA)
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+        caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
