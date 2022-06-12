@@ -127,13 +127,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>  ᴀᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ </b>")
+                        "<b> ADMIN TERE BAAP BANAEGA KYA 😐</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**  ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ **")
+                        message.chat.id, "** HUM AA GYE SWAGAT TO KARO HAMARA 🥲**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -296,7 +296,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "** Dhat Teri maa ki chut song ka naam kon dalega°**"
+                "** DHAT TERI MAA KI CHUT SONG KA NAAM KON DALEGA 🙂°**"
             )
             print(str(e))
             return
