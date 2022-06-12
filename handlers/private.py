@@ -14,19 +14,23 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/41daa06a220f61571580e.jpg",
+        photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
         caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ **""",
     reply_markup=InlineKeyboardMarkup(
             [
-                [
+                  [
                     InlineKeyboardButton(
-                        " ᴏᴡɴᴇʀ ", url=f"https://t.me/{master_user}")
-                    
-               ],
-                [
+                            text="ᴏᴡɴᴇʀ",
+                            url=f"https://t.me/{master_user}"),
+                            
+                    InlineKeyboardButton(
+                            text="ɢʀᴏᴜᴘ",
+                            url=f"https://t.me/HEPPYLIFI")
+                 ],
+                 [
                     InlineKeyboardButton(
                         " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
-               ]
+                ]
                             
            ]
        ),
@@ -35,7 +39,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/41daa06a220f61571580e.jpg",
+        photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
