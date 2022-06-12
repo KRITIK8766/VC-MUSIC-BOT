@@ -43,13 +43,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
-        caption=f"""""",
+        photo=f"https://telegra.ph/file/3bbbd1b63621c01731ed3.jpg",
+        caption=f"""**HA TU BHI AAJA BOSRI KE LUND LE LE MERA**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱", url=f"https://t.me/OFFICIALHACKERERA")
+                        "❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/OFFICIALHACKERERA")
                 ]
             ]
         ),
