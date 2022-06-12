@@ -106,8 +106,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def play(_, message: Message):
     global que
     global useer
-
-    lel = await message.reply(" 😎 ** ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ**")
+    lel = await message.reply(" 😎 ** RUKO PHELE BIDI PII LU FIR SONG FINDING KARUNGA 😜 **")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -127,13 +126,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b> ADMIN TERE BAAP BANAEGA KYA 😐</b>")
+                        "<b> ADMIN TERE BAAP BANAEGA KYA 🙄😐</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** HUM AA GYE SWAGAT TO KARO HAMARA 🥲**")
+                        message.chat.id, "** HUM AA GYE SWAGAT TO KARO HAMARA 😁🥲**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -269,7 +268,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "  ❌ ɴᴏᴛɪɴɢ ғᴏᴜɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 🙁 **"
+                "  ❌ ɴᴏᴛɪɴɢ ғᴏᴜɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴋʏᴀ ᴋᴀʀᴇ ᴊɪɴᴅᴀɢɪ ᴊʜᴀɴᴅ ʜᴀɪ 😔🙁  **"
             )
         await lel.edit(" 🙂 ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ....  ")
         query = message.text.split(None, 1)[1]
@@ -296,7 +295,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "** DHAT TERI MAA KI CHUT SONG KA NAAM KON DALEGA 🙂°**"
+                "** DHAT TERI MAA KI CHUT SONG KA NAAM KON DALEGA 🤨°**"
             )
             print(str(e))
             return
