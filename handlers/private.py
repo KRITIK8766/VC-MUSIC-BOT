@@ -20,16 +20,16 @@ async def start_(client: Client, message: Message):
             [
                   [
                     InlineKeyboardButton(
-                            text="ᴏᴡɴᴇʀ",
+                            text="❰❰ OWNER ❱❱",
                             url=f"https://t.me/{master_user}"),
                             
                     InlineKeyboardButton(
-                            text="ɢʀᴏᴜᴘ",
+                            text="❰❰ GROUP ❱❱",
                             url=f"https://t.me/HEPPYLIFI")
                  ],
                  [
                     InlineKeyboardButton(
-                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        "❰❰ ADD ME TO YOUR GROUP ❱❱", url=f"t.me/HKRMUSICBOT?startgroup=new")
                 ]
                             
            ]
@@ -45,7 +45,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ᴏᴡɴᴇʀ ", url=f"https://t.me/OFFICIALHACKERERA")
+                        "❰❰ OWNER ❱❱", url=f"https://t.me/OFFICIALHACKERERA")
                 ]
             ]
         ),
