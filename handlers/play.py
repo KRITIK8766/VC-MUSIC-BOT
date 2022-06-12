@@ -177,8 +177,11 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
+               ],
+                [
+                    InlineKeyboardButton(
+                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ]
-               
                
             ]
         )
@@ -221,8 +224,11 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text=" ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
+                ],
+               [
+                    InlineKeyboardButton(
+                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ]
-              
              
             ]
         )
@@ -242,6 +248,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
+               ],
+                [
+                    InlineKeyboardButton(
+                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ]
              
                
@@ -259,7 +269,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "  ᴡʜᴀᴛs ᴛʜᴇ sᴏɴɢ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ**"
+                "  ❌ |ɴᴏᴛɪɴɢ ғᴏᴜɴᴅ ᴛʀʏ ᴀɢᴀɪɴ**"
             )
         await lel.edit("  ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ....  ")
         query = message.text.split(None, 1)[1]
@@ -301,6 +311,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
+               ],
+                [
+                    InlineKeyboardButton(
+                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                ]
               
               
