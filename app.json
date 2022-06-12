@@ -32,7 +32,7 @@
     },
     "MASTER_USERNAME": {
       "description": "Write Ur Username(Without @ Or With @).",
-      "required": true
+      "required": true,
       "value": "OFFICIALHACKERERA"
     },
     "DURATION_LIMIT": {
