@@ -296,7 +296,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "** sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ sᴘᴇʟʟɪɴɢ ᴘʀᴏʙʟᴇᴍ °**"
+                "** Dhat Teri maa ki chut song ka naam kon dalega°**"
             )
             print(str(e))
             return
