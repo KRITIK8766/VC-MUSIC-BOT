@@ -107,7 +107,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply(" 💞 ** ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ**")
+    lel = await message.reply(" 😎 ** ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -171,16 +171,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ OWNER ❱❱",
-                            url=f"https://t.me/{master_user}"),
+                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ GROUP ❱❱",
+                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
-                        "❰❰ ADD ME TO YOUR GROUP ❱❱", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        "❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
                ]
                
             ]
@@ -218,16 +218,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ OWNER ❱❱",
-                            url=f"https://t.me/{master_user}"),
+                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text=" ❰❰ GROUP ❱❱",
+                            text=" ❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
                             url=f"https://t.me/HEPPYLIFI")
                 ],
                [
                     InlineKeyboardButton(
-                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱ ", url=f"https://t.me/{master_user}")
                ]
              
             ]
@@ -242,16 +242,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ OWNER ❱❱ ",
-                            url=f"https://t.me/{master_user}"),
+                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱ ",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ GROUP ❱❱",
+                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
-                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱ ", url=f"https://t.me/{master_user}")
                ]
              
                
@@ -269,9 +269,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "  ❌ |ɴᴏᴛɪɴɢ ғᴏᴜɴᴅ ᴛʀʏ ᴀɢᴀɪɴ**"
+                "  ❌ ɴᴏᴛɪɴɢ ғᴏᴜɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 🙁 **"
             )
-        await lel.edit("  ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ....  ")
+        await lel.edit(" 🙂 ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ....  ")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -305,16 +305,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ OWNER ❱❱",
-                            url=f"https://t.me/{master_user}"),
+                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ GROUP ❱❱",
+                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
-                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
                ]
               
               
