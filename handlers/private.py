@@ -33,7 +33,7 @@ async def start_(client: Client, message: Message):
                 ],
                  [
                     InlineKeyboardButton(
-                        "❰ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ❱", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        "❰ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ❱", url=f"t.me/ULTRA_X_MUSICBOT?startgroup=new")
                 ]
                             
            ]
