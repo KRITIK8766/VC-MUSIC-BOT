@@ -106,7 +106,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def play(_, message: Message):
     global que
     global useer
-    lel = await message.reply(" 😎 ** RUKO PHELE BIDI PII LU FIR SONG FINDING KARUNGA 😜 **")
+    lel = await message.reply("** Processing please wait!....  **")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -126,13 +126,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b> ADMIN TERE BAAP BANAEGA KYA 🙄😐</b>")
+                        "<b> i am not addmin 🚫</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** HUM AA GYE SWAGAT TO KARO HAMARA 😁🥲**")
+                        message.chat.id, "** Music Assistance joined 👍**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -167,23 +167,19 @@ async def play(_, message: Message):
         views = "Locally added"
 
         keyboard = InlineKeyboardMarkup(
-            [
+             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
-                            url=f"https://t.me/Broken_Heart_72"),
+                            text="❰ 𝗢𝗪𝗡𝗘𝗥 ❱",
+                            url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="❰ 𝗚𝗥𝗢𝗨𝗣 ❱",
                             url=f"https://t.me/HEPPYLIFI")
-               ],
-                [
-                    InlineKeyboardButton(
-                        "❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
                ]
-               
             ]
         )
+
 
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)
@@ -217,20 +213,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
-                            url=f"https://t.me/Broken_Heart_72"),
+                            text="❰ 𝗢𝗪𝗡𝗘𝗥 ❱",
+                            url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
-                            text=" ❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="❰ 𝗚𝗥𝗢𝗨𝗣 ❱",
                             url=f"https://t.me/HEPPYLIFI")
-                ],
-               [
-                    InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱ ", url=f"https://t.me/{master_user}")
                ]
-             
             ]
         )
+
 
         except Exception as e:
             title = "NaN"
@@ -238,24 +230,19 @@ async def play(_, message: Message):
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
-            [
+              [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱ ",
-                            url=f"https://t.me/Broken_Heart_72"),
+                            text="❰ 𝗢𝗪𝗡𝗘𝗥 ❱",
+                            url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="❰ 𝗚𝗥𝗢𝗨𝗣 ❱",
                             url=f"https://t.me/HEPPYLIFI")
-               ],
-                [
-                    InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱ ", url=f"https://t.me/{master_user}")
                ]
-             
-               
             ]
         )
+
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
@@ -268,9 +255,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "  ❌ ɴᴏᴛɪɴɢ ғᴏᴜɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴋʏᴀ ᴋᴀʀᴇ ᴊɪɴᴅᴀɢɪ ᴊʜᴀɴᴅ ʜᴀɪ 😔🙁  **"
+                "  ❌ Nothing found try again **"
             )
-        await lel.edit(" 🙂 ᴘʀᴏᴄᴇssɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ....  ")
+        await lel.edit("")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -295,7 +282,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "** DHAT TERI MAA KI CHUT SONG KA NAAM KON DALEGA 🤨°**"
+                " "
             )
             print(str(e))
             return
@@ -304,19 +291,13 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
-                            url=f"https://t.me/Broken_Heart_72"),
+                            text="❰ 𝗢𝗪𝗡𝗘𝗥 ❱",
+                            url=f"https://t.me/OFFICIALHACKERERA"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="❰ 𝗚𝗥𝗢𝗨𝗣 ❱",
                             url=f"https://t.me/HEPPYLIFI")
-               ],
-                [
-                    InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
                ]
-              
-              
             ]
         )
 
@@ -336,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**** sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ ** {}**".format(position),
+            caption="**** 𝗨𝗟𝗧𝗥𝗔 𝗫 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 **{}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -353,7 +334,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**  ØFFɪㄈɪΛŁ нΛㄈҚƐ尺 **  `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**  `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
