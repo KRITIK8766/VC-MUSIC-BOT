@@ -1,8 +1,9 @@
 {
-  "name": "Music Bot",
-  "description": "Open-Source & Best Music bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "name": "KatilMusicX",
+  "logo": "https://telegra.ph/file/13fba0e9d76c406ae9ce2.jpg",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/KRITIK8766/VC-MUSIC-BOT",
+  "repository": "https://github.com/bhumiharsaurabh/katilmusicx",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -13,10 +14,9 @@
       "description": "A bot token from @BotFather",
       "required": true
     },
-    "BOT_NAME": {
-      "description": "Your MusicPlayer Bot username without @.",
-      "required": false,
-      "value": ""
+    "BOT_USERNAME": {
+      "description": "fill with your bot username from @BotFather but without using '@' symbol",
+      "required": true
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
@@ -26,19 +26,18 @@
       "description": "App hash from my.telegram.org/apps",
       "required": true
     },
+    "OWNER_USERNAME": {
+      "description": "fill with your telegram account username without @",
+      "required": true
+    },
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
-    "MASTER_USERNAME": {
-      "description": "Write Ur Username(Without @ Or With @).",
-      "required": true,
-      "value": "OFFICIALHACKERERA"
-    },
     "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes) i suggest 20-30 min.",
+      "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "20"
+      "value": "200"
     }
   }
 }
