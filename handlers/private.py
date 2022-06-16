@@ -14,26 +14,26 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
+        photo=f"https://telegra.ph/file/72158285463afef8d1044.jpg",
         caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ **""",
     reply_markup=InlineKeyboardMarkup(
             [
                   [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            text="ᴄʜᴀɴɴᴇʟ",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text=" ɢʀᴏᴜᴘ ",
                             url=f"https://t.me/HEPPYLIFI")
                  ],
                   [
                     InlineKeyboardButton(
-                        "❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
+                        " ᴏᴡɴᴇʀ", url=f"https://t.me/{master_user}")
                 ],
                  [
                     InlineKeyboardButton(
-                        "❰❰ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ❱❱", url=f"t.me/HKRMUSICBOT?startgroup=new")
+                        " ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"t.me/HKRMUSICBOT?startgroup=new")
                 ]
                             
            ]
@@ -43,13 +43,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3bbbd1b63621c01731ed3.jpg",
+        photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
         caption=f"""**HA TU BHI AAJA BOSRI KE LUND LE LE MERA**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/OFFICIALHACKERERA")
+                        "ᴏᴡɴᴇʀ", url=f"https://t.me/OFFICIALHACKERERA")
                 ]
             ]
         ),
