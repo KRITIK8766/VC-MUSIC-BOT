@@ -241,7 +241,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱ ",
+                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
@@ -250,7 +250,7 @@ async def play(_, message: Message):
                ],
                 [
                     InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱ ", url=f"https://t.me/{master_user}")
+                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
                ]
              
                
@@ -295,7 +295,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "** DHAT TERI MAA KI CHUT SONG KA NAAM KON DALEGA 🤨°**"
+                "** DHAT TERI MAA KI CHUT SONG KA NAAM KON DALEGA 🤨**"
             )
             print(str(e))
             return
