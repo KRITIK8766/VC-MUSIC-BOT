@@ -170,16 +170,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            text="ᴄʜᴀɴɴᴇʟ",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
-                        "❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
+                        "ᴏᴡɴᴇʀ", url=f"https://t.me/{master_user}")
                ]
                
             ]
@@ -217,16 +217,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            text="ᴄʜᴀɴɴᴇʟ",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text=" ❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                 ],
                [
                     InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱ ", url=f"https://t.me/{master_user}")
+                        " ᴏᴡɴᴇʀ ", url=f"https://t.me/{master_user}")
                ]
              
             ]
@@ -241,16 +241,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            text="ᴄʜᴀɴɴᴇʟ",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
+                        " ᴏᴡɴᴇʀ", url=f"https://t.me/{master_user}")
                ]
              
                
@@ -304,16 +304,16 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="❰❰ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ❱❱",
+                            text="ᴄʜᴀɴɴᴇʟ",
                             url=f"https://t.me/Broken_Heart_72"),
                             
                     InlineKeyboardButton(
-                            text="❰❰ 𝗚𝗥𝗢𝗨𝗣 ❱❱",
+                            text="ɢʀᴏᴜᴘ",
                             url=f"https://t.me/HEPPYLIFI")
                ],
                 [
                     InlineKeyboardButton(
-                        " ❰❰ ❰❰ 𝗢𝗪𝗡𝗘𝗥 ❱❱ ❱❱", url=f"https://t.me/{master_user}")
+                        " ᴏᴡɴᴇʀ", url=f"https://t.me/{master_user}")
                ]
               
               
