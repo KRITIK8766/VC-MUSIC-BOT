@@ -2,7 +2,7 @@
   "name": "Music Bot",
   "description": "Open-Source & Best Music bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/LEGENDARY-OS/MUSIC-BOT",
+  "repository": "https://github.com/KRITIK8766/VC-MUSIC-BOT",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -37,7 +37,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes) i suggest 20-30 min.",
       "required": true,
-      "value": "20"
+      "value": "5000"
     }
   }
 }
