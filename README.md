@@ -1,4 +1,4 @@
-## Hkr Music 🎵🎶 BOT
+## HKR MUSIC BOT 🎵🎶 
 
 
 
