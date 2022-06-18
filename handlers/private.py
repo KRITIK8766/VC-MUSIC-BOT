@@ -17,9 +17,9 @@ async def start_(client: Client, message: Message):
         photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
  ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ
-┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┏━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)
-┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┗━━━━━━━━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -34,7 +34,7 @@ async def start_(client: Client, message: Message):
                  ],
                   [
                     InlineKeyboardButton(
-                        "「๏ᴡɴᴇʀ™」", url=f"https://t.me/{master_user}")
+                        "「๏ᴡɴᴇʀ」", url=f"https://t.me/{master_user}")
                 ],
                  [
                     InlineKeyboardButton(
