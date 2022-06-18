@@ -14,8 +14,13 @@ if "@" in master_user:
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/72158285463afef8d1044.jpg",
-        caption=f"""** ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ **""",
+        photo=f"https://telegra.ph/file/ac2cbc52c602ed4dbc549.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+ ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ : [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)
+┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                   [
@@ -29,7 +34,7 @@ async def start_(client: Client, message: Message):
                  ],
                   [
                     InlineKeyboardButton(
-                        " ᴏᴡɴᴇʀ", url=f"https://t.me/{master_user}")
+                        "「๏ᴡɴᴇʀ™」", url=f"https://t.me/{master_user}")
                 ],
                  [
                     InlineKeyboardButton(
