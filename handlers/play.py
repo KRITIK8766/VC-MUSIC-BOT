@@ -336,7 +336,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**** HKR MUSIC BOT 🎵🎶 ** {}**".format(position),
+            caption="**** OFFICIAL HKR MUSIC BOT 🎵🎶 ** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -353,11 +353,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="━━━━━━━━━━━━━━━━━━━━━━━━
-┏━━━━━━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)
-┗━━━━━━━━━━━━━━━━━━━━━━┛
-━━━━━━━━━━━━━━━━━━━━━━━━**`{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**★ ᴄʀᴇᴀᴛᴏʀ : [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)**🎶`{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
