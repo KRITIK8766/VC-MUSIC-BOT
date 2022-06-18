@@ -353,7 +353,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰❰❰★ ᴄʀᴇᴀᴛᴏʀ : [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)**`{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**❰❰«★ ᴄʀᴇᴀᴛᴏʀ : [ØFFɪㄈɪΛŁ нΛㄈҚƐ尺](https://t.me/OFFICIALHACKERERA)**`{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
