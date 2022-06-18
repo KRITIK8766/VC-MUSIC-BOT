@@ -106,7 +106,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def play(_, message: Message):
     global que
     global useer
-    lel = await message.reply("**Find Your Song **")
+    lel = await message.reply("**ғɪɴᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ! **")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
